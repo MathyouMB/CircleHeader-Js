@@ -13,6 +13,20 @@ var c = canvas.getContext('2d');
 //console.log(canvas);
 var x = 10//Math.random() * window.innerWidth;
 var y = 10//Math.random() * window.innerHeight;
+
+function Circle(x,y){
+	this.x = x;
+	this.y = y;
+
+	this.draw = function(){
+		console.log('NFKNF');
+	}
+}
+
+var circle = new Circle(200,200);
+circle.draw();
+
+
 function animate(){
 	requestAnimationFrame(animate);
 	c.clearRect(0,0,innerWidth,innerHeight);
