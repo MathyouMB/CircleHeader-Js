@@ -4,16 +4,6 @@ canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
 
-//
-
-//c.fillRect(100,100,100,100);
-//c.stroke();
-
-//console.log(canvas);
-//var x = 10//Math.random() * window.innerWidth;
-//var y = 10//Math.random() * window.innerHeight;
-//19:53
-
 var mouse = {
 	x: undefined,
 	y: undefined
@@ -21,7 +11,6 @@ var mouse = {
 
 var maxRadius = 40;
 var mouseDis = 75;
-//var minRadius = 2;
 
 var colorArray = [
 	'#2A4D69',
